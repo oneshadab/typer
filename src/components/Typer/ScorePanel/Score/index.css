@@ -1,0 +1,11 @@
+.score {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-width: 178px;
+}
+
+.score .wpm {
+  font-size: 32px;
+  text-align: end;
+}
