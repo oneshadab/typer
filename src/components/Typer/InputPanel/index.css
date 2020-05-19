@@ -1,0 +1,11 @@
+.input-panel {
+  background-color: #a7c8e7;
+  display: flex;
+  padding: 4px 10%;
+  height: 50px;
+  width: 100%;
+}
+
+.input-panel .button {
+  margin: 0 0 0 8px;
+}
