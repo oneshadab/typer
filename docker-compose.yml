@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  typer:
+    build: .
+    command: ["yarn", "start"]
+    volumes:
+      - .:/code
+      - /code/node_modules
+    environment:
+      - PORT=7126
+    ports:
+      - 7126:7126
