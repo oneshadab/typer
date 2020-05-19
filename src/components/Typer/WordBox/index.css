@@ -1,0 +1,32 @@
+.word-box {
+  background-color: white;
+  padding: 8px;
+  font-weight: 400;
+  font-size: 24px;
+  border-radius: 8px;
+  word-break: break-all;
+  border: 1px solid #8eb6d8;
+  width: 100%;
+}
+
+.word-box .word {
+  display: inline-block;
+  padding: 0 3px;
+}
+
+.word-box .word.done.correct {
+  color: green;
+}
+
+.word-box .word.done.wrong {
+  color: red;
+}
+
+.word-box .word.selected {
+  background: #dddddd;
+  border-radius: 3px;
+}
+
+.word-box .word.selected.wrong {
+  background: red;
+}
