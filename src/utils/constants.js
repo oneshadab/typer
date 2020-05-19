@@ -1,0 +1,5 @@
+const MINUTE_IN_MS = 60 * 1000;
+const DURATION_IN_MS = MINUTE_IN_MS;
+const TICK_TIME = 100;
+
+export { MINUTE_IN_MS, DURATION_IN_MS, TICK_TIME };
